@@ -3,7 +3,7 @@
 Version=0.0.3
 Name=Suyu
 Comment=Open Source Nintendo Switch Emulator
-Exec=/usr/bin/suyu-bin
+Exec=env APPIMAGELAUNCHER_DISABLE=1 /usr/bin/suyu-bin
 Icon=/usr/share/icons/hicolor/256x256/apps/suyu.png
 Terminal=false
 Type=Application
